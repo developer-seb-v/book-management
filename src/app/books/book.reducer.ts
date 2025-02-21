@@ -16,3 +16,4 @@ export const BookReducer = createReducer(
     on(RemoveBook, (state, {bookId})=> state.filter(book=>book.id !== bookId))
 )
 
+//reducer copys current state > makes changes / returns new state
